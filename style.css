@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100px;
+  background-color:#9289cf;
+  
+
+}
+
+nav  {
+  display:flex;
+  align-items: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  color:black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li{
+  list-style: none;
+  margin: 0px 10px 0px 10px;
+  padding: 0px;
+  font-size: 25px;
+  font-family: Bebas Neue, arial;
+}
+/*
+#fundo {
+  background-image: url("assets/angelbanner1.jpg");
+  background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:1000px;
+}/*
+
