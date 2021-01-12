@@ -10,12 +10,22 @@
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   height: 90px;
   background-color:#9289cf7e;
   
 }
+#logo {
 
+padding: 10px;
+ 
+}
+img .logo {
+  width: 50px;
+  height: 50px;
+  flex-direction: row;
+  
+}
 body {
   font-family: Poppins,Arial, Helvetica, sans-serif;
 }
@@ -85,8 +95,40 @@ section {
   margin-top:30px;
 }
 
-#perfume {
+#perfume  {
   display:flex;
   flex-direction:row-reverse;
   margin-top: 35px;
 }
+ img .perfume1 {
+   height: 400px;
+   width: 400px;
+ }
+
+ .description h1 {
+   font-size: 50px;
+   color:#130e354a;
+   text-align: center;
+ }
+
+ .description h2 {
+   font-size: 21px;
+   margin-top: 25px;
+   color:#31248a4a;
+ }
+
+ button {
+   margin: 25px;
+   margin-top: 25px;
+   border-radius: 35px;
+   padding: 30px;
+   height:100px;
+   font-family: Poppins,Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   color:#31248a4a;
+   text-align: center;
+   background-color:#c2daf6;
+   border-color: #c2daf6;
+   border-bottom-left-radius: 1px;
+   
+ }
