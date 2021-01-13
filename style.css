@@ -107,14 +107,14 @@ section {
 
  .description h1 {
    font-size: 50px;
-   color:#130e354a;
+   color: #130e35cd;
    text-align: center;
  }
 
  .description h2 {
    font-size: 21px;
    margin-top: 25px;
-   color:#31248a4a;
+   color:#2d2657c2;
  }
 
  button {
@@ -132,3 +132,33 @@ section {
    border-bottom-left-radius: 1px;
    
  }
+
+ .angels {
+   width: 650px;
+   height: 450px;
+   margin: 15px;
+ }
+ footer {
+   display:flex;
+   align-items: center;
+ }
+ .description1 h1 {
+  font-size: 30px;
+  color:#130e35cd;
+  text-align: center;
+ }
+
+ .description1 h2 {
+  font-size: 21px;
+  margin-top: 25px;
+  color:#2d2657c2;
+ }
+.rodape {
+  width:2400px;
+  height: 40px;
+  background-color:#9289cf7e;
+  text-align:start;
+  line-height: 40px;
+  color:#2d2657c2;
+  text-shadow: 0px 1px 0px black;
+}
