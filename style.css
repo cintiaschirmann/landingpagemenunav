@@ -9,23 +9,24 @@
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
   align-items: center;
-  height: 90px;
+  height: 45px;
   background-color:#9289cf7e;
   
 }
-#logo {
 
-padding: 10px;
+#logo {
+  width:300px;
+  height:70px;
  
 }
-img .logo {
-  width: 50px;
-  height: 50px;
-  flex-direction: row;
-  
+.logo {
+  width: 100px;
+  height: 70px;
+
 }
+
 body {
   font-family: Poppins,Arial, Helvetica, sans-serif;
 }
@@ -34,6 +35,9 @@ nav  {
   display:flex;
   align-items: center;
 
+}
+nav a:hover{
+  background-color: #9c93d0;
 }
 
 nav a {
@@ -55,6 +59,7 @@ nav li{
 }
 
 #fundo {
+  margin-top: 5px;
   background-image: url("assets/AngelBanner.jpg");
   background-position:center;
     background-repeat:no-repeat;
@@ -100,9 +105,9 @@ section {
   flex-direction:row-reverse;
   margin-top: 35px;
 }
- img .perfume1 {
-   height: 400px;
-   width: 400px;
+ .perfume1 {
+   height:700px;
+   width: 800px;
  }
 
  .description h1 {
@@ -125,40 +130,72 @@ section {
    height:100px;
    font-family: Poppins,Arial, Helvetica, sans-serif;
    font-size: 25px;
-   color:#31248a4a;
+   color:#f4f5f8;
    text-align: center;
-   background-color:#c2daf6;
+   background-color:#f6c4cf;
    border-color: #c2daf6;
    border-bottom-left-radius: 1px;
    
  }
 
+
  .angels {
    width: 650px;
-   height: 450px;
+   height: 850px;
    margin: 15px;
+ }
+ #angelnova {
+  background-image: url("assets/footer.jpg");
+  background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+  
+    
  }
  footer {
    display:flex;
    align-items: center;
  }
+.description1  {
+  margin: 10px;
+  background-color: #c47ca14b;
+  border-radius: 35px;
+  
+}
+
  .description1 h1 {
   font-size: 30px;
   color:#130e35cd;
   text-align: center;
  }
 
+ .description1 p {
+  font-size: 21px;
+  margin-top: 25px;
+  color:#061646;
+
+ }
+
  .description1 h2 {
   font-size: 21px;
   margin-top: 25px;
+  color:#2f2663ef;
+ }
+
+ .description1 h3 {
+  font-size: 20px;
+  margin-top: 25px;
   color:#2d2657c2;
  }
-.rodape {
-  width:2400px;
-  height: 40px;
-  background-color:#9289cf7e;
-  text-align:start;
-  line-height: 40px;
-  color:#2d2657c2;
-  text-shadow: 0px 1px 0px black;
+ 
+
+
+#bannerfooter {
+  margin-top: 15px;;
+  background-image: url("assets/muglerrodape.jpg");
+  background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:380px;
+    
 }
